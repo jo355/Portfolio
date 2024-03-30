@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function submitForm(form) {
   var formData = new FormData(form);
-  fetch('http://127.0.0.1:5500/#', {
+  fetch('https://jyothi-k-c.netlify.app/', {
     method: 'POST',
     body: formData
   })
