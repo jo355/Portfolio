@@ -1,7 +1,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  var form = document.getElementById('form');
+  var form = document.getElementById('data-form');
   form.addEventListener('submit', function(e) {
     e.preventDefault();
     submitForm(form);
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function submitForm(form) {
   var formData = new FormData(form);
-  fetch('https://jyothi-k-c.netlify.app/', {
+  fetch('https://jyothi-k-c.netlify.app/#contact', {
     method: 'POST',
     body: formData
   })
