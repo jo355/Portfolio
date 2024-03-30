@@ -71,6 +71,10 @@ img{
         height: 5 vw;
         display: block;
       }
+
+    .nav-footer{
+        text-align: center;
+    }
     
 }
     
